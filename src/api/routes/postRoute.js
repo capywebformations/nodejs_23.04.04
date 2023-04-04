@@ -10,6 +10,7 @@ router
     .post(postController.createAPost);
 
 // /posts/:id_post
+// :id_post = req.params.id_post
 // router
 //     .route('/:id_post')
 //     .get(postController.getAPost)
